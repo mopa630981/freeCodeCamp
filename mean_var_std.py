@@ -10,4 +10,3 @@ def calculate(input_list):
         'sum':[np.sum(my_mat,axis=0).tolist(),np.sum(my_mat,axis=1).tolist(),np.sum(my_mat).tolist()]}
     return output
 
-print(calculate([0,1,2,3,4,5,6,7,8]))
